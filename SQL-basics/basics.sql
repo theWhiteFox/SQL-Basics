@@ -13,5 +13,4 @@ date timestamp,
 PRIMARY KEY(id),
 FOREIGN KEY(foreign_key_id) REFERENCES table_name(foreign_key_id)
 );
-
-
+RENAME TABLE `memebers` TO `members`
